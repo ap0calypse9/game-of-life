@@ -11,7 +11,7 @@
 void print_grid(const Life &life) {
     for(auto i = 0; i < life.Grid_Width; ++i){
         for(auto j = 0 ; j < life.Grid_Height; ++j){
-            std::cout<< (life.Grid[i][j]  ? "*" : ".")<<" "; //print * for live cell and . for dead one 
+            std::cout<< (life.Grid[i][j]  ? "*" : ".")<<" "; //print "*" for live cell and "." for dead one 
         }
         std::cout<<'\n';
     }
